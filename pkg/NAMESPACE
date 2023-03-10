@@ -1,0 +1,25 @@
+export("mabb")
+export("mabb2")
+export("betabinmoments")
+export("bbm")
+export("alphaKR21")
+
+S3method(print, maid)
+S3method(summary, maid)
+S3method(print, summary.maid)
+S3method(vcov, maid)
+S3method(confint, maid)
+S3method(logLik, maid)
+S3method(plot, maid)
+S3method(qtest, maid)
+S3method(alphaKR21, maid)
+S3method(print, alphaKR21.maid)
+
+
+import(mvmeta)
+import(ellipse)
+
+importFrom("graphics", "lines", "plot", "points")
+importFrom("stats", "coef", "model.matrix", "pchisq", "plogis",
+             "qnorm", "sd", "symnum", "vcov")
+

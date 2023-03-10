@@ -1,0 +1,18 @@
+Package: maid
+Type: Package
+Title: Meta-Analysis of Individual Differences
+Version: 0.2
+Date: 2022-05-20
+Author: Philipp Doebler [aut, cre], Susanne Frick [ctb]
+Maintainer: Philipp Doebler <philipp.doebler@googlemail.com>
+Description: Functions for meta-analysis of individual differences. 
+ Intended for tests with dichotomous items and a Beta-binomial total 
+ score distribution. Beta-binomial parameters are estimated using moment
+ estimation and integrated with bivariate meta-analysis.
+License: GPL (>= 2)
+Depends: mvmeta, ellipse
+Imports: moments
+Suggests: VGAM
+NeedsCompilation: no
+Packaged: 2016-02-25 09:25:02 UTC; philipp
+RoxygenNote: 7.1.2

@@ -1,0 +1,8 @@
+ICAR60                  ICAR 60 Data
+bbm                     Moment estimates of Beta-binomial parameters
+betabinmoments          The first four central moments of the
+                        Beta-binomial distribution
+mabb                    Fit bivariate meta-analysis model to
+                        Beta-binomial parameters
+maid-Methods            Methods for 'maid' objects
+maid-package            Meta-Analysis of Individual Differences
